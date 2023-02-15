@@ -11,8 +11,8 @@ public class BloodStockLogic {
     private static void sendFromGMail(String to, String subject, String body) {
         Properties props = System.getProperties();
         String host = "smtp.gmail.com";
-        String from = "malicksow19.ms19@gmail.com";
-        String pass = "72828282";
+        String from = "malick@gmail.com";
+        String pass = "random";
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.host", host);
         props.put("mail.smtp.user", from);
